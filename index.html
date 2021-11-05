@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="assets/index.css" />
+    <script src="https://code.highcharts.com/highcharts.js"></script>
+    <script src="https://code.highcharts.com/highcharts-more.js"></script>
+    <script src="https://code.highcharts.com/modules/item-series.js"></script>
+    <script src="https://code.highcharts.com/modules/streamgraph.js"></script>
+    <script src="https://code.highcharts.com/modules/heatmap.js"></script>
+    <script src="https://code.highcharts.com/modules/tilemap.js"></script>
+    <script src="https://code.highcharts.com/modules/sunburst.js"></script>
+    <script src="https://code.highcharts.com/maps/modules/map.js"></script>
+    <script src="https://code.highcharts.com/modules/timeline.js"></script>
+
+    <script type="module" src="./assets/js/stickyNavBar.js"></script>
+    <script type="module" src="./charts.js"></script>
+
+    <title>PUBG</title>
+  </head>
+
+  <body>
+    <div class="whole">
+      <div class="header">
+        <span class="logo">
+          <a href="https://www.pubg.com/" target="_blank">
+            <img src="images/top2.png" style="width:40%;height:40%;"/></a></span>
+        <p>
+          Data visualization story of what is PUBG, and how to play the game
+        </p>
+      </div>
+
+      <div id="nav">
+        <ul>
+          <li><a href="#intro">What is PUBG</a></li>
+          <li><a href="#game">Game Development</a></li>
+          <li><a href="#tutorial">Understand The Game</a></li>
+        </ul>
+      </div>
+
+      <div class="main">
+        <section class="intro" id="intro">
+          <div class="startup-story flexc">
+            <div class="content">
+              <header class="major">
+                <h2><b>What is the game</b></h2>
+              </header>
+              <p>
+                PlayerUnknown's BattleGrounds is an online multiplayer battle
+                royale game, developed and published by PUBG Corporation. In
+                the game, up to 100 players parachute onto an island and search
+                for weapons and equipment to kill others, while avoiding to get
+                killed. The safe zone in the map shortens 
+                every few minutes, forcing players to move to a more central area.
+                The last player left standing wins the game.
+                <br />
+                <br />
+                Winner Winner Chicken Dinner.
+                <br />
+              </p>
+            </div>
+
+            <div class="image">
+              <img src="./images/top3.jpeg" />
+            </div>
+          </div>
+        </section>
+
+
+        <section class="game" id="game">
+          <header class="major">
+            <h2><b>Growth Statistics</b></h2>
+          </header>
+          
+          <p>
+            PUBG was originally designed as a Personal Computer game. But as of today, 
+            it developed to incorporate both console and mobile gaming. Its development was 
+            everything but smooth. It was originally scheduled to launch by early 2017, but 
+            only launched at the end of the year. The game was lacking testing, and was full
+            of bugs, which will come back and hurt the company later. 
+            <br />
+          </p>
+
+
+          <!-- Number of Downloads -->
+          <header class="major">
+            <h3>PUBG Downloads and playerbase</h3>
+          </header>
+
+          <p>
+            After its initial launch, PUBG went instantly viral in the gaming community. It 
+            revolutionized the classic first-person shooting perspective that all shooting 
+            games were adopting at the moment. Every named streamer at 
+            <a href="https://www.twitch.tv/" target="_blank">twitch</a> 
+            would be playing PUBG, which fueled the spread of the game even further. After its initial launch, 
+            it reached its astonishing peak of 3 million concurrent players online. However, the 
+            constant presence of bugs, and lack of testing led to its eventual downfall. Later, 
+            the company decided to switch strategy and invest their efforts in the mobile 
+            gaming industry. surprinsingly, their efforts paid out, and they are now the 
+            top-grossing battle royale shooting game in mobile gaming.
+            <br />
+          </p>
+
+
+
+          <div class="stats-charts-container" id="downloads">
+            <section class="chart-instance" id="chart-num-users"></section>
+            <section class="chart-instance" id="chart-total-download"></section>
+          </div>
+          <hr />
+
+
+          <!-- PUBG timeline plot -->
+          <header class="major">
+            <h3>PUBG Development Timeline</h3>
+          </header>
+          <p>
+            The game went through a long testing phase in China, which eventually paid off. The game 
+            had to change its name to 'Game for Peace' and many "violent" features had to be adapted. However,
+            these efforts were not wasted, as China represents PUBG's  #1 playerbase. 
+
+            <br />
+            
+            PUBG also faced some relegations in India, where the game was banned for its violence. 
+            PUBG is still working on adjusting game features to accomodate the Indian gaming community.
+          </p>
+          <div class="stats-charts-container">
+            <section class="chart-instance"  id="timeline"></section>
+          </div>
+          <hr />
+          
+          
+          
+
+          <!-- Number of Users -->
+          <header class="major">
+            <h3>PUBG Net Worth</h3>
+          </header>
+          <p>
+            According to 
+            <a href="https://www.wealthypersons.com/pubg-net-worth-2020-2021/" target="_blank">wealthypersons.com</a> 
+            PUBG has reached a net worth of $5 billion in 2020. The mobile version alone
+            garnered over $1.5 Billion by 2019, and the game does not seem to decrease 
+            in revenue by anytime soon. With this amount of money, it is hard to be put into 
+            prospective. Hence, we chose to compare it with Michael Jordan's shoes company
+            (Air Jordan), which according to 
+            <a href="https://www.businessinsider.com/how-michael-jordan-spends-his-money-2015-3" target="_blank">sources</a>
+            , has a net worth of $1.6 billion, which totally pales in comparison.
+            <br />
+          </p>
+
+
+
+          <div class="stats-charts-container num-users">
+            <section class="chart-instance" id="logo-section">
+              <img src="./images/pubg-logo.png" style="width: 300px;" />
+              <h3 style="color: #FFA500;">$5 Billion</h3>
+              <span style="color: #FFA500;">PUBG Net Worth</span>
+            </section>
+
+            <section class="chart-instance" id="greater-than-sign">
+              <img src="./images/greater_than.svg.png" style="width: 90px;" />
+            </section>
+
+            <section class="chart-instance" id="logo-section">
+              <img src="./images/airjordan.png" style="width: 165px;" />
+              <h3 style="color: rgb(145, 143, 143);">$1.6 Billion</h3>
+              <span style="color: rgb(145, 143, 143);">Air Jordan Net Worth</span>
+            </section>
+          </div>
+          <hr />
+
+
+
+
+
+
+          <!-- User gender distribution -->
+          <header class="major">
+            <h3>User gender distribution</h3>
+          </header>
+
+          <div class="stats-charts-container">
+            <section class="chart-instance" id="chart-user-by-gender"></section>
+          </div>
+
+          <p>
+            PUBG Mobile is universally played by both genders. The female to male gender ratio is about 4:6, 
+            which suggests growth space for more active female audience. Already PUBG has tried to attract
+            female audience by offering a wide range of aestehtically pleasing clothing to purchase within the game
+             and had collaborated with popular idols to promote more advertising for PUBG.
+            <br />
+          </p>
+
+
+
+
+
+          <section class="tutorial" id="tutorial">
+            <header class="major">
+              <h2><b>Understand The Game</b></h2>
+            </header>
+
+            <p>
+              To better explain what PUBG is, it is important to first explain what 
+              Battle Royale games are in general.
+              <br />
+            </p>
+    
+            <header class="major">
+              <h3>Battle Royale</h3>
+            </header>
+
+            <div class="center">
+              <img src="./images/erangel.jpg" />
+            </div>
+
+            <p>
+              This is the map of the island that each player is going to jump into. 
+              Each player will have to loot for weapons and medicines, all before the playable 
+              map starts to shorten, and players are forced to move to a more crowded area. 
+              As a result, it is essential to understand which locations have more resources, 
+              so you can use these resources to survive and kill the rest of the participants. 
+              You also have to be careful avoiding places with too many resources, as they will 
+              be filled with other people, which will kill you before you can even explore the 
+              island.
+              <br />
+            </p>
+
+            <hr />
+  
+            <header class="major">
+              <h3>Weapons</h3>
+            </header>
+
+            <p>
+              PUBG has a great variety of guns for players to choose, from pistols and SMGs, to assault rifles and sniper rifles. 
+              These weapons vary in their availability, shooting range, and damage per bullet.
+              It could be very confusing for beginners to think about which two guns they should equip.
+              To make it simpler for beginners, here are top ten guns players often used to kill
+              and the average shooting distance of these 10 guns according to data from an incredibly detailed gaming website <a href=" ">Gosu</a >.
+              <br />
+            </p >
+
+            <div class="stats-charts-container" id="guns">
+              <section class="chart-instance" id="kills"></section>
+              <section class="chart-instance" id="dists"></section>
+            </div>
+  
+            <hr />
+
+            <header class="major">
+              <h3>Strategies</h3>
+            </header>
+
+            <p>
+              Choosing where to parachute onto is also a very strategic move. 
+              Resources such as vests, helmets, backpacks, throwables, and weapons 
+              are by no means evenly distributed across the map. Some places have high resources,
+              where many players would choose, yet too many players means there bound to be savage battles on landing.
+              Places that have less resources could be safe at first, but the safe zone would gradually reduce to the central area, 
+              without transportation vehicles, players might not have the time to flee the dead zone. 
+              On the left is a vivid illustration of these difficult choices.
+            </p >
+
+            <div class="center">
+              <img src="./images/strategy.jpg" />
+            </div>
+
+            <br />
+            <hr />
+  
+            <header class="major">
+              <h3>Bonus</h3>
+            </header>
+            <p>
+              There are so many other aspects of the game that we could not 
+              include in this brief introduction, so we provided some gameplay 
+              to give you a hunch on how fun the game is!
+              <br />
+            </p>
+            <br />
+            <div class="center">
+              <img src="./images/funny1.gif" />
+              <br />
+              
+              <hr />
+
+              <br />
+              <img src="./images/funny2.gif" />
+              <br />
+
+              <hr />
+
+              <br />
+              <img src="./images/funny3.gif" />
+            </div>
+          </section>
+        </div>
+      </div>
+    </body>
+  </html>
+  
