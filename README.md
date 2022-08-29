@@ -1,2 +1,2 @@
-# PLAYERUNKNOWN'S BATTLEGROUNDS DATA VISUALIZATION WEBSITE
+# Playerunknown's Battlegrounds Data Visualization Website
 https://mcelz.github.io/
