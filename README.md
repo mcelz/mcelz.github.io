@@ -1,2 +1,2 @@
 # Playerunknown's Battlegrounds Data Visualization Website
-https://mcelz.github.io/
+To view the visualization of PUBG Game Data, please click on:  https://mcelz.github.io/
